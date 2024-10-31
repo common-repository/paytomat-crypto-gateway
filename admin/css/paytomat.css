@@ -1,0 +1,31 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+
+#adminmenu  #toplevel_page_paytomat img {
+	width: 25px;
+	padding: 4px 0 0;
+}
+
+.pt {
+	margin: 25px; 
+}
+
+.pt .start-container {
+    background-color: #fff;
+    border-left: 4px solid #c1a0d2;
+    padding: 45px 20px 20px 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+#input_token {
+	width: 500px;
+}
+
+.pt .start-container .info {
+	color: green;
+}

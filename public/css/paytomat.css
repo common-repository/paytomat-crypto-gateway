@@ -1,0 +1,165 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+#pt-place-qr {
+	border: 5px solid #57cdf1;
+	padding: 5px 10px;
+	background: #fff;
+	z-index: 999;
+	max-width: 768px;
+	margin: 0 auto; 
+	border-radius: 50px;
+}
+
+#pt-place-qr > div {
+	height: 330px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#pt-place-qr .pt-row > .pt-col-2 {
+	display: inline-block;
+}
+
+#pt-place-qr .pt-paid{
+	display: inline-block;
+    width: 115px;
+    height: 40px;
+    font-size: 18px;
+    padding: 6px 0px 0px;
+    border-radius: 10px;
+    background: #0b2798;
+	color: #fff;
+}
+
+.pt-row {
+	overflow: hidden;
+}
+
+.pt-col-2 {
+	width: 50%;
+	float: left;
+}
+
+.pt-text-center {
+	text-align: center;
+}
+
+.pt-info {
+	margin-top: 45px;
+}
+
+.pt-option-currency-title {
+	width: 300px;
+}
+
+.pt-option-currency-title span{
+	width: 200px;
+	display: inline-block;
+}
+
+
+
+#pt-currency-selector .select-hidden {
+	display: none;
+	visibility: hidden;
+	padding-right: 10px;
+}
+
+#pt-currency-selector .select {
+	cursor: pointer;
+	display: inline-block;
+	font-size: 16px;
+	position: absolute;
+	left: 0px;
+	top: 10px;
+	color: #717171;
+	width: 220px;
+	height: 40px;
+}
+
+#pt-currency-selector .select-styled {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #fcfcfc;
+	padding: 8px 15px;
+	box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.4);
+}
+
+#pt-currency-selector .select-styled:after {
+	content: "";
+	width: 0;
+	height: 0;
+	border: 7px solid transparent;
+	border-color: #474647 transparent transparent transparent;
+	position: absolute;
+	top: 16px;
+	right: 10px;
+}
+
+#pt-currency-selector .select-styled:hover {
+	background-color: #fcfcfc;
+}
+
+#pt-currency-selector .select-styled:active, #pt-currency-selector .select-styled.active {
+	background-color: #656565;
+	color: #fff;
+}
+
+#pt-currency-selector .select-styled:active:after, #pt-currency-selector .select-styled.active:after {
+	top: 9px;
+	border-color: transparent transparent #fff transparent;
+}
+
+#pt-currency-selector .select-options {
+	display: none;
+	top: 100%;
+	right: 0;
+	left: 0;
+	z-index: 999;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background-color: #fcfcfc;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.6);
+}
+
+#pt-currency-selector .select-options li {
+	margin: 0;
+	padding: 8px 0;
+	text-indent: 15px;
+}
+
+#pt-currency-selector .select-options li:hover {
+	color: #fff;
+	background: #626262;
+}
+
+#pt-currency-selector .select-options li[rel="hide"] {
+	display: none;
+}
+
+#pt-currency-selector .view-categories__amount {
+	float: right;
+}
+
+.pt-back {
+	border-bottom: 1px solid #50b5e3;
+    margin-right: 20px;
+    color: #50b5e3;
+}
+
+.pt-track {
+	font-size: 16px;
+}
+
+@media (max-width: 768px) {
+	.pt-col-2 {
+		width: 100%;
+	}
+}
